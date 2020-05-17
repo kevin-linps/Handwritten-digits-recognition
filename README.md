@@ -6,14 +6,14 @@ Date: May 17, 2020
 
 ## About this project
 
-In this project, I am interested in building models that can recognize the digits written on the image inputs. I explored two Python libraries to perform the task, namely *scikit-learn* and *TensorFlow*. For scikit-learn, I explored three models — support vector machine (SVM), k nearest-neighbour (kNN) and random forest (RF); for TensorFlow, I constructed a convolutional neural network (CNN) for deep learning. The trained models are saved and the deployed on *DigitsVisualizer.py*.
+In this project, I am interested in building models that can recognize the digits written on the image inputs. I explored two Python libraries to perform the task, namely scikit-learn and TensorFlow. For scikit-learn, I explored three models — support vector machine (SVM), k nearest-neighbour (kNN) and random forest (RF); for TensorFlow, I constructed a convolutional neural network (CNN) for deep learning. The trained models are saved and the deployed on *DigitsVisualizer.py*.
 
 The description of each file is listed below.
 1. *Handwritten Digits Recognition 01 - Scikit-learn*: building three scikit-learn models and evaluate their accuracies
 2. *Handwritten Digits Recognition 02 - TensorFlow*: building a large CNN to classify the images
 3. *DigitsVisualizer.py*: a GUI that demonstrates the practical deployment of trained models
-4. *svm_model.joblib*: a *joblib* file that contains the binaries for trained SVM
-5. *CNN_model.h5*: an *h5* file that contains the trained CNN
+4. *svm_model.joblib*: a file that contains the binaries for trained SVM
+5. *CNN_model.h5*: a file that contains the trained CNN
 
 
 ## Experiemental results
@@ -41,6 +41,15 @@ Table 2. Accuracy of the TensorFlow model
 | Training | 99.46          |
 | Testing  | 99.21 	        |
 
+## Instructions on using the GUI
+
+1. Select the database you would like to choose the image from.
+2. Click 'Choose a random image'.
+3. An image would then appear. 
+* 'Answer' refers to the answer provided by the database.
+* 'Predict' refers to the what the model's guess of the digit written.
+
+![DigitVisualizer](screenshot.png)
 
 ## Technologies used
 
