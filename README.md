@@ -47,7 +47,7 @@ Table 2. Accuracy of the TensorFlow model
 2. Click 'Choose a random image'.
 3. An image would then appear. 
 * 'Answer' refers to the answer provided by the database.
-* 'Predict' refers to the what the model's guess of the digit written.
+* 'Predict' refers to the the model's guess of the digit written.
 
 ![DigitVisualizer](screenshot.png)
 
