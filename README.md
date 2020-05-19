@@ -11,9 +11,7 @@ In this project, I am interested in building models that can recognize the digit
 The description of each file is listed below.
 1. *Handwritten Digits Recognition 01 - Scikit-learn*: building three scikit-learn models and evaluate their accuracies
 2. *Handwritten Digits Recognition 02 - TensorFlow*: building a large CNN to classify the images
-3. *DigitsVisualizer.py*: a GUI that demonstrates the practical deployment of trained models
-4. *svm_model.joblib*: a file that contains the binaries for trained SVM
-5. *CNN_model.h5*: a file that contains the trained CNN
+3. *Applications*: two Python source codes that demonstrate practical deployments of trained models
 
 
 ## Experiemental results
@@ -40,16 +38,6 @@ Table 2. Accuracy of the TensorFlow model
 |----------|----------------|
 | Training | 99.46          |
 | Testing  | 99.21 	        |
-
-## Instructions on using the GUI
-
-1. Select the database you would like to choose the image from.
-2. Click 'Choose a random image'.
-3. An image would then appear. 
-* 'Answer' refers to the answer provided by the database.
-* 'Predict' refers to the the model's guess of the digit written.
-
-![DigitVisualizer](screenshot.png)
 
 ## Technologies used
 
